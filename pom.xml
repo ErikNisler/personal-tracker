@@ -10,7 +10,6 @@
 
     <modules>
         <module>personaltracker-backend</module>
-        <module>personaltracker-client</module>
         <module>personaltracker-main</module>
     </modules>
 </project>
