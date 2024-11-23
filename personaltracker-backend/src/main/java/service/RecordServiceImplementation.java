@@ -1,10 +1,8 @@
 package service;
 
 import dto.RecordDTO;
-import enums.Currency;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -33,6 +31,6 @@ public class RecordServiceImplementation implements RecordService {
     @Override
     public RecordDTO get(int id) {
         //Get record by id
-        return new RecordDTO("Record 1", 12, Currency.CZK, LocalDateTime.now(), "my notes");
+        return null;
     }
 }
