@@ -8,17 +8,17 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-public class MongoDBTest {
-    public static void main(String[] args) {
-        // Replace the placeholder with your MongoDB deployment's connection string
-        private static final Dotenv dotenv = Dotenv.load();
+public class DBConnectionTest {
+    // Statická inicializace dotenv pro načítání environmentálních proměnných
+    private static final Dotenv dotenv = Dotenv.load();
 
+    public static void main(String[] args) {
+        // Načtení připojovacího řetězce z .env souboru
         try (MongoClient mongoClient = MongoClients.create(getDatabaseUri())) {
             MongoDatabase database = mongoClient.getDatabase("record");
             MongoCollection<Document> collection = database.getCollection("record");
 
-            Document query = new Document("name", "Stock");
-            Document result = collection.find(query).first();
+            Document result = collection.find().first();
 
             if (result != null) {
                 System.out.println(result.toJson());
@@ -30,6 +30,7 @@ public class MongoDBTest {
         }
     }
 
+    // Statická metoda pro získání URI z .env souboru
     public static String getDatabaseUri() {
         return dotenv.get("DB_URI");
     }
