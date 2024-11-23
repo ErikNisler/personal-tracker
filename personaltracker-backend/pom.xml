@@ -42,6 +42,14 @@
             <artifactId>personaltracker-main</artifactId>
             <version>1.0-SNAPSHOT</version> <!-- Specify a valid version -->
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
