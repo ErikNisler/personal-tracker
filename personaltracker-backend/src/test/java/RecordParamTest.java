@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import runtimeterror.personaltracker.enums.Currency;
 
 import java.time.LocalDateTime;
 
