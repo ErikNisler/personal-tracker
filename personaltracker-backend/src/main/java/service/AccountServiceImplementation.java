@@ -1,9 +1,12 @@
+package service;
+
+import dto.AccountDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class AccountServiceImplementation implements AccountService{
+public class AccountServiceImplementation implements AccountService {
     @Override
     public void add(AccountDTO record) {
         //Add account

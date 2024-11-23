@@ -1,3 +1,7 @@
+package service;
+
+import dto.RecordDTO;
+
 import java.util.List;
 
 public interface RecordService {

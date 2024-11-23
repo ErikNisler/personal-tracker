@@ -1,3 +1,5 @@
+package dto;
+
 public class AccountDTO {
     private String name;
     private double value;

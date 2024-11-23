@@ -1,4 +1,7 @@
+package dto;
+
 import java.time.LocalDateTime;
+import enums.Currency;
 
 public class RecordDTO {
     private String name;

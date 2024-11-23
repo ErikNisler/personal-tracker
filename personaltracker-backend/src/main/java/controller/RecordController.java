@@ -1,12 +1,18 @@
+package controller;
+
+import dto.RecordDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import service.RecordService;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/records")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class RecordController {
-    @Autowired RecordService recordService;
+    @Autowired
+    RecordService recordService;
 
     @PostMapping("/add")
     public void addRecord(@RequestBody RecordDTO record){

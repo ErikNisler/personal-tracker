@@ -1,10 +1,15 @@
+package controller;
+
+import dto.AccountDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import service.AccountService;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/accounts")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AccountController {
     @Autowired
     AccountService accountService;

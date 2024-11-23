@@ -1,3 +1,7 @@
+package service;
+
+import dto.AccountDTO;
+
 import java.util.List;
 
 public interface AccountService {
