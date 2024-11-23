@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="454c74af-c45b-4d86-bf20-e5b6ed55e7b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/personaltracker-main/src/main/java/runtimeterror/personaltracker/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personaltracker-main/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personaltracker-client/src/main/java/runtimeterror/personaltracker/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personaltracker-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/personaltracker-main/pom.xml" afterDir="false" />
+    <list default="true" id="454c74af-c45b-4d86-bf20-e5b6ed55e7b5" name="Changes" comment="MongoDB">
+      <change afterPath="$PROJECT_DIR$/personaltracker-backend/src/main/java/resources/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personaltracker-backend/src/test/java/DBConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +24,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ErikNisler"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ErikNisler&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ErikNisler/personal-tracker.git",
-    "accountId": "beaf02bf-7372-44ea-aa43-fa241a45c770"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ErikNisler/personal-tracker.git&quot;,
+    &quot;accountId&quot;: &quot;beaf02bf-7372-44ea-aa43-fa241a45c770&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2pF99LRAUe6NZ1gxupRRTEaDeji" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,9 +52,10 @@
     "Application.PersonalTrackerApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "developer",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/erikn/IdeaProjects/personal-tracker/personaltracker-client",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -67,7 +69,7 @@
   <component name="RunManager">
     <configuration name="PersonalTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="runtimeterror.personaltracker.PersonalTrackerApplication" />
-      <module name="personaltracker-main" />
+      <module name="personal-tracker" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runtimeterror.personaltracker.*" />
@@ -94,5 +96,9 @@
       <updated>1732350806576</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MongoDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="MongoDB" />
   </component>
 </project>
