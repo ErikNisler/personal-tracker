@@ -14,17 +14,17 @@ public class RecordController {
     }
 
     @PutMapping("/update/{recordId}")
-    public void updateRecord(@PathVariable int id, @RequestBody RecordDTO record){
+    public void updateRecord(@PathVariable("recordId") int id, @RequestBody RecordDTO record){
         recordService.update(id, record);
     }
 
     @DeleteMapping("/delete/{recordId}")
-    public void deleteRecord(@PathVariable int id){
+    public void deleteRecord(@PathVariable("recordId") int id){
         recordService.remove(id);
     }
 
     @GetMapping("/get/{recordId}")
-    public RecordDTO getRecord(@PathVariable int id){
+    public RecordDTO getRecord(@PathVariable("recordId") int id){
         return recordService.get(id);
     }
 

@@ -15,17 +15,17 @@ public class AccountController {
     }
 
     @PutMapping("/update/{accountId}")
-    public void updateAccount(@PathVariable int accountId, @RequestBody AccountDTO account){
+    public void updateAccount(@PathVariable("accountId") int accountId, @RequestBody AccountDTO account){
         accountService.update(accountId, account);
     }
 
     @DeleteMapping("/delete/{accountId}")
-    public void deleteAccount(@PathVariable int accountId){
+    public void deleteAccount(@PathVariable("accountId") int accountId){
         accountService.remove(accountId);
     }
 
     @GetMapping("/get/{accountId}")
-    public AccountDTO getAccount(@PathVariable int accountId){
+    public AccountDTO getAccount(@PathVariable("accountId") int accountId){
         return accountService.get(accountId);
     }
 
