@@ -8,9 +8,9 @@ public class Record {
 
     public Record (String name, double value, LocalDateTime dateTime, String note){
         setName(name);
-        this.value = value;
-        this.dateTime = dateTime;
-        this.note = note;
+        setValue(value);
+        setDateTime(dateTime);
+        setNote(note);
     }
 
     //region Getters and Setters
@@ -30,6 +30,9 @@ public class Record {
     }
 
     public void setValue(double value){
+        if (value == 0){
+        throw new IllegalArgumentException("The record can not have a zero value");
+        }
         this.value = value;
     }
 
