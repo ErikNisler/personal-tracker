@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/personaltracker/pom.xml" />
+        <option value="$PROJECT_DIR$/personaltracker-client/pom.xml" />
       </list>
     </option>
   </component>
