@@ -1,13 +1,13 @@
 import java.time.LocalDateTime;
 
-public class Record {
+public class RecordDTO {
     private String name;
     private double value;
     private Currency currency;
     private LocalDateTime dateTime;
     private String note;
 
-    public Record (String name, double value, Currency currency, LocalDateTime dateTime, String note){
+    public RecordDTO (String name, double value, Currency currency, LocalDateTime dateTime, String note){
         setName(name);
         setValue(value);
         setCurrency(currency);
