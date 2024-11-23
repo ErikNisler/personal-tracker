@@ -3,12 +3,14 @@ import java.time.LocalDateTime;
 public class Record {
     private String name;
     private double value;
+    private Currency currency;
     private LocalDateTime dateTime;
     private String note;
 
-    public Record (String name, double value, LocalDateTime dateTime, String note){
+    public Record (String name, double value, Currency currency, LocalDateTime dateTime, String note){
         setName(name);
         setValue(value);
+        setCurrency(currency);
         setDateTime(dateTime);
         setNote(note);
     }
@@ -34,6 +36,14 @@ public class Record {
         throw new IllegalArgumentException("The record can not have a zero value");
         }
         this.value = value;
+    }
+
+    public Currency getCurrency(){
+        return currency;
+    }
+
+    public void setCurrency(Currency currency){
+        this.currency = currency;
     }
 
     public LocalDateTime getDateTime(){
