@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="454c74af-c45b-4d86-bf20-e5b6ed55e7b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/personaltracker-main/src/main/java/runtimeterror/personaltracker/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personaltracker-main/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personaltracker-client/src/main/java/runtimeterror/personaltracker/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personaltracker-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/personaltracker-main/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ErikNisler"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ErikNisler/personal-tracker.git",
+    "accountId": "beaf02bf-7372-44ea-aa43-fa241a45c770"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pF99LRAUe6NZ1gxupRRTEaDeji" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PersonalTrackerApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/erikn/IdeaProjects/personal-tracker/personaltracker-client",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\erikn\IdeaProjects\personal-tracker\personaltracker-client" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PersonalTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runtimeterror.personaltracker.PersonalTrackerApplication" />
+      <module name="personaltracker-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runtimeterror.personaltracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PersonalTrackerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="454c74af-c45b-4d86-bf20-e5b6ed55e7b5" name="Changes" comment="" />
+      <created>1732350806576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732350806576</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="personaltracker-client" />
         <module name="personaltracker-main" />
         <module name="personaltracker-backend" />
+        <module name="personaltracker-client" />
       </profile>
     </annotationProcessing>
   </component>
