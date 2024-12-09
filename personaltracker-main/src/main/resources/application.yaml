@@ -6,3 +6,6 @@ server:
 spring:
   application:
     name: personaltracker-main
+
+database:
+  uri: "mongodb+srv://tomator5000:3C9aHZ5GQAFOYBVa@cluster0.jpsbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"

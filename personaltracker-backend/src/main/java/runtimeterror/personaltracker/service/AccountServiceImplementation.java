@@ -1,11 +1,12 @@
-package runtimeterror.personaltracker;
+package runtimeterror.personaltracker.service;
 
 import org.springframework.stereotype.Service;
+import runtimeterror.personaltracker.dto.AccountDTO;
 
 import java.util.List;
 
 @Service
-public class AccountServiceImplementation implements AccountService{
+public class AccountServiceImplementation implements AccountService {
     @Override
     public void add(AccountDTO record) {
         //Add account

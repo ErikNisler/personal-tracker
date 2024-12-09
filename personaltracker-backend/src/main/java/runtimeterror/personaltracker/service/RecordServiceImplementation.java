@@ -1,12 +1,13 @@
-package runtimeterror.personaltracker;
+package runtimeterror.personaltracker.service;
 
 import org.springframework.stereotype.Service;
+import runtimeterror.personaltracker.dto.RecordDTO;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
-public class RecordServiceImplementation implements RecordService{
+public class RecordServiceImplementation implements RecordService {
+
     @Override
     public void add(RecordDTO record) {
         //Add record
@@ -31,6 +32,6 @@ public class RecordServiceImplementation implements RecordService{
     @Override
     public RecordDTO get(int id) {
         //Get record by id
-        return new RecordDTO("Record 1", 12, Currency.CZK, LocalDateTime.now(), "my notes");
+        return null;
     }
 }

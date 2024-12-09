@@ -1,4 +1,6 @@
-package runtimeterror.personaltracker;
+package runtimeterror.personaltracker.service;
+
+import runtimeterror.personaltracker.dto.RecordDTO;
 
 import java.util.List;
 

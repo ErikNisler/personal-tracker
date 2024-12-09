@@ -1,4 +1,4 @@
-package runtimeterror.personaltracker;
+package runtimeterror.personaltracker.dto;
 
 public class AccountDTO {
     private String name;

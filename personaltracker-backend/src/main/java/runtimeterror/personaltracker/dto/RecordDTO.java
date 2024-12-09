@@ -1,4 +1,6 @@
-package runtimeterror.personaltracker;
+package runtimeterror.personaltracker.dto;
+
+import runtimeterror.personaltracker.enums.Currency;
 
 import java.time.LocalDateTime;
 
@@ -35,7 +37,7 @@ public class RecordDTO {
 
     public void setValue(double value){
         if (value == 0){
-        throw new IllegalArgumentException("The record can not have a zero value");
+            throw new IllegalArgumentException("The record can not have a zero value");
         }
         this.value = value;
     }
